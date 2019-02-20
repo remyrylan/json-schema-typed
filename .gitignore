@@ -1,0 +1,10 @@
+.DS_Store
+
+/.vscode/csak-timelog.json
+/__coverage__/
+/node_modules/
+/pkg/
+/__meta__/api-temp/
+/api-docs/
+
+shrinkwrap.yaml
