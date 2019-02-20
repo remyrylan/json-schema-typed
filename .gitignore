@@ -1,0 +1,10 @@
+.DS_Store
+
+/__coverage__/
+/node_modules/
+/pkg/
+/__meta__/api-temp/
+/api-docs/
+
+/dist
+yarn.lock
