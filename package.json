@@ -70,7 +70,7 @@
     "tslint-slick": "5.0.0",
     "typedoc": "0.14.2",
     "typedoc-plugin-markdown": "1.2.0",
-    "typescript": "3.4.3",
+    "typescript": "3.4.4",
     "typescript-tslint-plugin": "0.3.1",
     "weak": "1.0.1"
   },
