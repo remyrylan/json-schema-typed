@@ -64,7 +64,7 @@
     "deep-sort-object": "1.0.2",
     "jest": "24.7.1",
     "jest-serializer-path": "0.1.15",
-    "prettier": "1.17.0",
+    "prettier": "1.18.2",
     "tsconfig-slick": "3.0.2",
     "tslint": "5.16.0",
     "tslint-slick": "5.0.0",
