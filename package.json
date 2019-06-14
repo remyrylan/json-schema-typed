@@ -47,7 +47,7 @@
     "@babel/runtime-corejs2": "7.4.3",
     "@loomble/cspell-dictionary": "*",
     "@microsoft/api-extractor": "7.1.0",
-    "@pika/pack": "0.3.7",
+    "@pika/pack": "0.4.0",
     "@pika/plugin-build-node": "0.3.15",
     "@pika/plugin-build-types": "0.3.16",
     "@pika/plugin-build-web": "0.3.15",
