@@ -42,9 +42,9 @@
     "docs": "typedoc --theme markdown --out ./api-docs ./src"
   },
   "devDependencies": {
-    "@babel/cli": "7.4.3",
-    "@babel/core": "7.4.3",
-    "@babel/runtime-corejs2": "7.4.3",
+    "@babel/cli": "7.5.0",
+    "@babel/core": "7.5.4",
+    "@babel/runtime-corejs2": "7.5.4",
     "@loomble/cspell-dictionary": "*",
     "@microsoft/api-extractor": "7.1.0",
     "@pika/pack": "0.3.7",
