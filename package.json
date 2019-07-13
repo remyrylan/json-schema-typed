@@ -71,7 +71,7 @@
     "typedoc": "0.14.2",
     "typedoc-plugin-markdown": "1.2.0",
     "typescript": "3.4.5",
-    "typescript-tslint-plugin": "0.3.1",
+    "typescript-tslint-plugin": "0.5.4",
     "weak": "1.0.1"
   },
   "@pika/pack": {
