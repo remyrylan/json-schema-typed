@@ -1,8 +1,9 @@
 {
   "metadata": {
     "toolPackage": "@microsoft/api-extractor",
-    "toolVersion": "7.0.18",
-    "schemaVersion": 1000
+    "toolVersion": "7.3.2",
+    "schemaVersion": 1001,
+    "oldestForwardsCompatibleVersion": 1001
   },
   "kind": "Package",
   "canonicalReference": "json-schema-typed",
@@ -170,6 +171,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | boolean"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -177,7 +182,7 @@
               "name": "additionalItems",
               "propertyTypeTokenRange": {
                 "startIndex": 2,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -199,6 +204,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | boolean"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -206,7 +215,7 @@
               "name": "additionalProperties",
               "propertyTypeTokenRange": {
                 "startIndex": 2,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -223,12 +232,16 @@
                   "text": "?: "
                 },
                 {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
                   "kind": "Reference",
                   "text": "JSONSchema"
                 },
                 {
                   "kind": "Content",
-                  "text": "[]"
+                  "text": " | boolean)[]"
                 },
                 {
                   "kind": "Content",
@@ -239,7 +252,7 @@
               "name": "allOf",
               "propertyTypeTokenRange": {
                 "startIndex": 2,
-                "endIndex": 4
+                "endIndex": 5
               }
             },
             {
@@ -256,12 +269,16 @@
                   "text": "?: "
                 },
                 {
+                  "kind": "Content",
+                  "text": "("
+                },
+                {
                   "kind": "Reference",
                   "text": "JSONSchema"
                 },
                 {
                   "kind": "Content",
-                  "text": "[]"
+                  "text": " | boolean)[]"
                 },
                 {
                   "kind": "Content",
@@ -272,7 +289,7 @@
               "name": "anyOf",
               "propertyTypeTokenRange": {
                 "startIndex": 2,
-                "endIndex": 4
+                "endIndex": 5
               }
             },
             {
@@ -323,6 +340,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | boolean"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -330,7 +351,7 @@
               "name": "contains",
               "propertyTypeTokenRange": {
                 "startIndex": 2,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -459,7 +480,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ";\n    }"
+                  "text": " | boolean;\n    }"
                 },
                 {
                   "kind": "Content",
@@ -504,7 +525,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | string[];\n    } | string[]"
+                  "text": " | boolean | string[];\n    } | string[]"
                 },
                 {
                   "kind": "Content",
@@ -566,6 +587,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | boolean"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -573,7 +598,7 @@
               "name": "else",
               "propertyTypeTokenRange": {
                 "startIndex": 2,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -744,6 +769,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | boolean"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -751,7 +780,7 @@
               "name": "if",
               "propertyTypeTokenRange": {
                 "startIndex": 2,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -773,7 +802,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": " | "
+                  "text": " | boolean | ("
                 },
                 {
                   "kind": "Reference",
@@ -781,7 +810,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[]"
+                  "text": " | boolean)[]"
                 },
                 {
                   "kind": "Content",
@@ -1075,6 +1104,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | boolean"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -1082,7 +1115,7 @@
               "name": "not",
               "propertyTypeTokenRange": {
                 "startIndex": 2,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -1104,7 +1137,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": "[]"
+                  "text": " | boolean[]"
                 },
                 {
                   "kind": "Content",
@@ -1178,7 +1211,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ";\n    }"
+                  "text": " | boolean;\n    }"
                 },
                 {
                   "kind": "Content",
@@ -1223,7 +1256,7 @@
                 },
                 {
                   "kind": "Content",
-                  "text": ";\n    }"
+                  "text": " | boolean;\n    }"
                 },
                 {
                   "kind": "Content",
@@ -1256,6 +1289,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | boolean"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -1263,7 +1300,7 @@
               "name": "propertyNames",
               "propertyTypeTokenRange": {
                 "startIndex": 2,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -1343,6 +1380,10 @@
                 },
                 {
                   "kind": "Content",
+                  "text": " | boolean"
+                },
+                {
+                  "kind": "Content",
                   "text": ";"
                 }
               ],
@@ -1350,7 +1391,7 @@
               "name": "then",
               "propertyTypeTokenRange": {
                 "startIndex": 2,
-                "endIndex": 3
+                "endIndex": 4
               }
             },
             {
@@ -2401,11 +2442,23 @@
             },
             {
               "kind": "Content",
-              "text": " = '7bit' | '8bit' | 'binary' | 'quoted-printable' | 'base64' | 'ietf-token' | 'x-token';"
+              "text": " = "
+            },
+            {
+              "kind": "Content",
+              "text": "'7bit' | '8bit' | 'binary' | 'quoted-printable' | 'base64' | 'ietf-token' | 'x-token'"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
             }
           ],
           "releaseTag": "Public",
-          "name": "JSONSchemaContentEncodingName"
+          "name": "JSONSchemaContentEncodingName",
+          "typeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          }
         },
         {
           "kind": "Variable",
@@ -2455,11 +2508,23 @@
             },
             {
               "kind": "Content",
-              "text": " = 'array' | 'boolean' | 'integer' | 'null' | 'number' | 'object' | 'string';"
+              "text": " = "
+            },
+            {
+              "kind": "Content",
+              "text": "'array' | 'boolean' | 'integer' | 'null' | 'number' | 'object' | 'string'"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
             }
           ],
           "releaseTag": "Public",
-          "name": "JSONSchemaTypeName"
+          "name": "JSONSchemaTypeName",
+          "typeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 4
+          }
         },
         {
           "kind": "TypeAlias",
@@ -2508,11 +2573,19 @@
             },
             {
               "kind": "Content",
-              "text": ")[];"
+              "text": ")[]"
+            },
+            {
+              "kind": "Content",
+              "text": ";"
             }
           ],
           "releaseTag": "Public",
-          "name": "JSONSchemaTypeValue"
+          "name": "JSONSchemaTypeValue",
+          "typeTokenRange": {
+            "startIndex": 3,
+            "endIndex": 11
+          }
         }
       ]
     }

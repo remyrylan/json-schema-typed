@@ -49,10 +49,6 @@ x.x.x
 
 ---
 
-## Related
-
-- [typeschema](https://github.com/typeschema/typeschema)
-
 ## News and Updates
 
 [Follow @typeslick on Twitter](https://twitter.com/typeslick) for the latest

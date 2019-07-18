@@ -147,7 +147,7 @@ export interface JSONSchema {
    *
    * Omitting this keyword has the same behavior as an empty schema.
    */
-  additionalItems?: JSONSchema
+  additionalItems?: JSONSchema | boolean
 
   /**
    * The value of "additionalProperties" MUST be a valid JSON Schema.
@@ -164,7 +164,7 @@ export interface JSONSchema {
    *
    * Omitting this keyword has the same behavior as an empty schema.
    */
-  additionalProperties?: JSONSchema
+  additionalProperties?: JSONSchema | boolean
 
   /**
    * This keyword's value MUST be a non-empty array. Each item of the array MUST
@@ -173,7 +173,7 @@ export interface JSONSchema {
    * An instance validates successfully against this keyword if it validates
    * successfully against all schemas defined by this keyword's value.
    */
-  allOf?: JSONSchema[]
+  allOf?: (JSONSchema | boolean)[]
 
   /**
    * This keyword's value MUST be a non-empty array. Each item of the array MUST
@@ -182,7 +182,7 @@ export interface JSONSchema {
    * An instance validates successfully against this keyword if it validates
    * successfully against at least one schema defined by this keyword's value.
    */
-  anyOf?: JSONSchema[]
+  anyOf?: (JSONSchema | boolean)[]
 
   /**
    * The value of this keyword MAY be of any type, including null.
@@ -198,7 +198,7 @@ export interface JSONSchema {
    * An array instance is valid against "contains" if at least one of its
    * elements is valid against the given schema.
    */
-  contains?: JSONSchema
+  contains?: JSONSchema | boolean
 
   /**
    * If the instance value is a string, this property defines that the string
@@ -250,7 +250,7 @@ export interface JSONSchema {
    * MUST be a valid JSON Schema.
    */
   definitions?: {
-    [key: string]: JSONSchema
+    [key: string]: JSONSchema | boolean
   }
 
   /**
@@ -273,7 +273,7 @@ export interface JSONSchema {
    */
   dependencies?:
     | {
-        [key: string]: JSONSchema | string[]
+        [key: string]: JSONSchema | boolean | string[]
       }
     | string[]
 
@@ -295,7 +295,7 @@ export interface JSONSchema {
    * evaluate the instance against this keyword, for either validation or
    * annotation collection purposes, in such cases.
    */
-  else?: JSONSchema
+  else?: JSONSchema | boolean
 
   /**
    * The value of this keyword MUST be an array. This array SHOULD have at least
@@ -405,7 +405,7 @@ export interface JSONSchema {
    *
    * [annotations]: http://json-schema.org/latest/json-schema-validation.html#annotations
    */
-  if?: JSONSchema
+  if?: JSONSchema | boolean
 
   /**
    * The value of "items" MUST be either a valid JSON Schema or an array of
@@ -422,7 +422,7 @@ export interface JSONSchema {
    *
    * Omitting this keyword has the same behavior as an empty schema.
    */
-  items?: JSONSchema | JSONSchema[]
+  items?: JSONSchema | boolean | (JSONSchema | boolean)[]
 
   /**
    * The value of "maximum" MUST be a number, representing an inclusive upper
@@ -520,7 +520,7 @@ export interface JSONSchema {
    * An instance is valid against this keyword if it fails to validate
    * successfully against the schema defined by this keyword.
    */
-  not?: JSONSchema
+  not?: JSONSchema | boolean
 
   /**
    * This keyword's value MUST be a non-empty array. Each item of the array MUST
@@ -529,7 +529,7 @@ export interface JSONSchema {
    * An instance validates successfully against this keyword if it validates
    * successfully against exactly one schema defined by this keyword's value.
    */
-  oneOf?: JSONSchema[]
+  oneOf?: JSONSchema | boolean[]
 
   /**
    * The value of this keyword MUST be a string. This string SHOULD be a valid
@@ -559,7 +559,7 @@ export interface JSONSchema {
    * Omitting this keyword has the same behavior as an empty object.
    */
   patternProperties?: {
-    [key: string]: JSONSchema
+    [key: string]: JSONSchema | boolean
   }
 
   /**
@@ -576,7 +576,7 @@ export interface JSONSchema {
    * Omitting this keyword has the same behavior as an empty object.
    */
   properties?: {
-    [key: string]: JSONSchema
+    [key: string]: JSONSchema | boolean
   }
 
   /**
@@ -588,7 +588,7 @@ export interface JSONSchema {
    *
    * Omitting this keyword has the same behavior as an empty schema.
    */
-  propertyNames?: JSONSchema
+  propertyNames?: JSONSchema | boolean
 
   /**
    * The value of this keywords MUST be a boolean. When multiple occurrences of
@@ -639,7 +639,7 @@ export interface JSONSchema {
    * instance against this keyword, for either validation or annotation
    * collection purposes, in such cases.
    */
-  then?: JSONSchema
+  then?: JSONSchema | boolean
 
   /**
    * Can be used to decorate a user interface with a short label about the data
