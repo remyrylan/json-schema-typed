@@ -2,7 +2,7 @@
   "name": "json-schema-typed",
   "description": "JSONSchema TypeScript definitions.",
   "version": "7.0.1",
-  "license": "bsd-2-clause",
+  "license": "BSD-2-Clause",
   "homepage": "https://github.com/typeslick/json-schema-typed",
   "repository": {
     "type": "git",
