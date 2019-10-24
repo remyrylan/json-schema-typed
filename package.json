@@ -48,7 +48,7 @@
     "@loomble/cspell-dictionary": "1.0.0",
     "@microsoft/api-extractor": "7.3.4",
     "@pika/pack": "0.4.0",
-    "@pika/plugin-build-node": "0.4.0",
+    "@pika/plugin-build-node": "0.7.1",
     "@pika/plugin-build-types": "0.4.0",
     "@pika/plugin-build-web": "0.4.0",
     "@pika/plugin-standard-pkg": "0.4.0",
