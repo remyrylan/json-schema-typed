@@ -53,7 +53,7 @@
     "@pika/plugin-build-web": "0.4.0",
     "@pika/plugin-standard-pkg": "0.4.0",
     "@types/babel__core": "7.1.2",
-    "@types/jest": "24.0.15",
+    "@types/jest": "24.0.20",
     "@types/jest-diff": "20.0.1",
     "@types/node": "12.6.8",
     "babel-core": "6.26.3",
