@@ -529,7 +529,7 @@ export interface JSONSchema {
    * An instance validates successfully against this keyword if it validates
    * successfully against exactly one schema defined by this keyword's value.
    */
-  oneOf?: JSONSchema | boolean[]
+  oneOf?: (JSONSchema | boolean)[]
 
   /**
    * The value of this keyword MUST be a string. This string SHOULD be a valid
