@@ -6,4 +6,5 @@
 /__meta__/api-temp/
 /api-docs/
 
+/dist
 yarn.lock
