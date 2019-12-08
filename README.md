@@ -1,6 +1,7 @@
 # json-schema-typed
 
-JSONSchema TypeScript definitions.
+JSON Schema draft-07 TypeScript definitions with complete inline documentation
+for each property.
 
 [![code style: Prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![npm](https://img.shields.io/npm/v/json-schema-typed.svg?style=flat-square)](https://npmjs.org/package/json-schema-typed)
@@ -10,8 +11,8 @@ JSONSchema TypeScript definitions.
 ## Install
 
 ```sh
-$ npm install json-schema-typed # NPM
-$ yarn install json-schema-typed # or Yarn
+npm install json-schema-typed # NPM
+yarn add json-schema-typed # or Yarn
 ```
 
 ## Usage
@@ -48,11 +49,6 @@ x.x.x
 ```
 
 ---
-
-## News and Updates
-
-[Follow @typeslick on Twitter](https://twitter.com/typeslick) for the latest
-updates and new project announcements.
 
 ## Sponsors
 
