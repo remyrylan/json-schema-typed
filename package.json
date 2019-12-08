@@ -1,7 +1,7 @@
 {
   "name": "json-schema-typed",
   "description": "JSONSchema TypeScript definitions.",
-  "version": "7.0.2",
+  "version": "7.0.3",
   "license": "BSD-2-Clause",
   "homepage": "https://github.com/typeslick/json-schema-typed",
   "repository": {
@@ -36,7 +36,7 @@
     "typescript"
   ],
   "scripts": {
-    "api-check": "npm run build && api-extractor run",
+    "api-check": "api-extractor run",
     "build": "pika build",
     "test": "jest",
     "docs": "typedoc --theme markdown --out ./api-docs ./src"
@@ -81,7 +81,7 @@
           "exclude": [
             "**/__**__/**/*",
             "**/website/**/*",
-            "**/src/tsdoc-metadata.json"
+            "**/tsdoc-metadata.json"
           ]
         }
       ],
