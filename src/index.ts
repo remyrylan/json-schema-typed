@@ -306,7 +306,7 @@ export interface JSONSchema {
    *
    * Elements in the array might be of any value, including null.
    */
-  enum?: any[]
+  enum?: any[] | ReadonlyArray<any>
 
   /**
    * The value of this keyword MUST be an array. There are no restrictions
